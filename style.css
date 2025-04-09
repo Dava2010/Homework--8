@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #d6e4ff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+canvas {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 380px;
+    max-height: 380px;
+}
